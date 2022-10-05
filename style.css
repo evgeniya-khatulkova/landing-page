@@ -1,0 +1,40 @@
+.header {
+    background-color: #1F2937;
+    color:#E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 100px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+.footer {
+    background-color: #1F2937;
+    color:#E5E7EB;
+    size: 18px;
+    padding:8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border: 3px;
+    border-color: #3882F6;
+    width: 50px;
+}
+
+ul {
+    size: 18px;
+    color:#E5E7EB;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.logo {
+    size: 24px;
+    color: #F9FAF8;
+}
