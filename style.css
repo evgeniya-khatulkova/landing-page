@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 .header {
     background-color: #1F2937;
     color:#E5E7EB;
@@ -40,6 +43,19 @@ ul {
     font-weight: 400;
 }
 
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info {
+    padding-top: 40px;
+    font-size: 34px;
+    font-weight: 600;
+    color: #1F2937;
+}
+
 img {
     width: 400px;
     height: 300px;
@@ -47,11 +63,20 @@ img {
 }
  .box {
     margin:100px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
  }
+
+ .cardandtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+ }
+
 .card {
     height: 150px;
     width: auto;
@@ -60,13 +85,20 @@ img {
     border-radius: 10%;
 }
 
+.sometext {
+    width: 170px;
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+}
+
 .quote {
     background-color: #E5E7EB;
     font-size: 36px;
     font-weight: lighter;
     color: #1F2937;
     font-style: italic;
-    padding: 100px 200px;
+    padding: 80px 140px;
 }
 
 .signup {
@@ -108,4 +140,9 @@ button {
 
 .topbutton {
     border: none;
+}
+
+p {
+    font-weight: 700;
+    text-align: end;
 }
